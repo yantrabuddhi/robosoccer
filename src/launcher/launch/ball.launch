@@ -1,0 +1,5 @@
+<launch>
+	<include file="$(find cv_camera)/launch/cv_camera.launch" />
+	<include file="$(find robot)/launch/body_driver.launch" />
+	<include file="$(find ball_tracker)/launch/ball_tracker.launch" />
+</launch>

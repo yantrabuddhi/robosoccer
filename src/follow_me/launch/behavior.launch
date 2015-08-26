@@ -1,0 +1,3 @@
+<launch>
+	<node name="behavior" pkg="follow_me" type="behavior.py" />
+</launch>
